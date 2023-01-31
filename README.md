@@ -1,6 +1,6 @@
 # GPG cheatsheet
 
-## Generate key
+## :sparkles: Generate key
 
 ```bash
 gpg --full-generate-key
