@@ -6,7 +6,7 @@
 gpg --full-generate-key
 ```
 
-## List keys
+## :clipboard: List keys
 
 ```bash
 # Private keys
