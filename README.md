@@ -25,15 +25,22 @@ gpg --list-secret-keys --keyid-format=long
 gpg --fingerprint
 ```
 
-## :wastebasket: Delete keys
+## :wastebasket: Delete key
 
 ```bash
 # Remove key from the public keyring.
-gpg --delete-keys <NAME>
+gpg --delete-keys <ID>
 
 # Remove key from the secret keyring.
-gpg --delete-secret-keys <NAME>
+gpg --delete-secret-keys <ID>
 
 # Same as --delete-key, but if a secret key exists, it will be removed first.
-gpg --delete-secret-and-public-key <NAME>
+gpg --delete-secret-and-public-key <ID>
+```
+
+## :no_entry_sign: Revoke key
+
+```bash
+# Generate a revocation certificate for the complete key.
+gpg --output <OUTPUT FILE NAME> --gen-revoke <ID>
 ```
