@@ -44,3 +44,13 @@ gpg --delete-secret-and-public-key <ID>
 # Generate a revocation certificate for the complete key.
 gpg --output <OUTPUT FILE NAME> --gen-revoke <ID>
 ```
+
+## :outbox_tray: Export key
+
+```bash
+# Export public key and save in a file
+gpg --output <OUTPUT FILE NAME> --export --armor <ID>
+
+# Export secret key and save in a file
+gpg --output <OUTPUT FILE NAME> --export-secret-keys --armor <ID>
+```
