@@ -61,3 +61,19 @@ gpg --output <OUTPUT FILE NAME> --export-secret-keys --armor <ID>
 # Import a key
 gpg --import <FILE>
 ```
+
+## :lock_with_ink_pen: Signatures
+
+```bash
+# Sign data
+gpg --sign <FILE>
+
+# Make a cleartext signature
+gpg --clear-sign <FILE>
+
+# Sign data with a specific key
+gpg --default-key <ID> --sign <FILE>
+
+# Verify the signature
+gpg --verify <FILE>.gpg
+```
