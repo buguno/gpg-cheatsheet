@@ -54,3 +54,10 @@ gpg --output <OUTPUT FILE NAME> --export --armor <ID>
 # Export secret key and save in a file
 gpg --output <OUTPUT FILE NAME> --export-secret-keys --armor <ID>
 ```
+
+## :inbox_tray: Import key
+
+```bash
+# Import a key
+gpg --import <FILE>
+```
