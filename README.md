@@ -88,11 +88,11 @@ gpg --verify <FILE>.sig <FILE>
 
 ```bash
 # Encrypt symmetric
-gpg --symmetric
+gpg --symmetric <FILE>
 
 # Encrypt asymmetric
-gpg --encrypt
+gpg --encrypt <FILE>
 
 # Encrypt and sign
-gpg --encrypt --sign
+gpg --encrypt --sign <FILE>
 ```
