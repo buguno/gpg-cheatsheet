@@ -74,6 +74,12 @@ gpg --clear-sign <FILE>
 # Sign data with a specific key
 gpg --default-key <ID> --sign <FILE>
 
+# Create a detached signature
+gpg --detach-sign <FILE>
+
 # Verify the signature
-gpg --verify <FILE>.gpg
+gpg --verify <FILE>
+
+# or
+gpg --verify <FILE>.sig <FILE>
 ```
