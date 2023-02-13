@@ -83,3 +83,16 @@ gpg --verify <FILE>
 # or
 gpg --verify <FILE>.sig <FILE>
 ```
+
+## :lock: Encrypt
+
+```bash
+# Encrypt symmetric
+gpg --symmetric
+
+# Encrypt asymmetric
+gpg --encrypt
+
+# Encrypt and sign
+gpg --encrypt --sign
+```
