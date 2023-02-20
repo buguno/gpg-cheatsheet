@@ -5,14 +5,14 @@ The repository is for quick queries of the most used commands.
 
 ## Summary
 
-- [:sparkles: Generate key](#sparkles-generate-key)
-- [:clipboard: List keys](#wastebasket-delete-key)
-- [:wastebasket: Delete key](#wastebasket-delete-key)
-- [:no_entry_sign: Revoke key](#no_entry_sign-revoke-key)
-- [:outbox_tray: Export key](#outbox_tray-export-key)
-- [:inbox_tray: Import key](#inbox_tray-import-key)
-- [:lock_with_ink_pen: Signatures](#lock_with_ink_pen-signatures)
-- [:lock: Encrypt](#lock-encrypt)
+1. [:sparkles: Generate key](#sparkles-generate-key)
+2. [:clipboard: List keys](#wastebasket-delete-key)
+3. [:wastebasket: Delete key](#wastebasket-delete-key)
+4. [:no_entry_sign: Revoke key](#no_entry_sign-revoke-key)
+5. [:outbox_tray: Export key](#outbox_tray-export-key)
+6. [:inbox_tray: Import key](#inbox_tray-import-key)
+7. [:lock_with_ink_pen: Signatures](#lock_with_ink_pen-signatures)
+8. [:lock: Encrypt](#lock-encrypt)
 
 ## :sparkles: Generate key
 
