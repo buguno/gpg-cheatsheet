@@ -1,4 +1,18 @@
-# GPG cheatsheet
+# GPG cheat sheet
+
+gpg is the OpenPGP part of the GNU Privacy Guard (GnuPG). It is a tool to provide digital encryption and signing services using the OpenPGP standard. gpg features complete key management and all the  bells  and whistles you would expect from a full OpenPGP implementation.
+The repository is for quick queries of the most used commands.
+
+## Summary
+
+- [:sparkles: Generate key](#sparkles-generate-key)
+- [:clipboard: List keys](#wastebasket-delete-key)
+- [:wastebasket: Delete key](#wastebasket-delete-key)
+- [:no_entry_sign: Revoke key](#no_entry_sign-revoke-key)
+- [:outbox_tray: Export key](#outbox_tray-export-key)
+- [:inbox_tray: Import key](#inbox_tray-import-key)
+- [:lock_with_ink_pen: Signatures](#lock_with_ink_pen-signatures)
+- [:lock: Encrypt](#lock-encrypt)
 
 ## :sparkles: Generate key
 
