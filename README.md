@@ -13,6 +13,7 @@ The repository is for quick queries of the most used commands.
 6. [:inbox_tray: Import key](#inbox_tray-import-key)
 7. [:lock_with_ink_pen: Signatures](#lock_with_ink_pen-signatures)
 8. [:lock: Encrypt](#lock-encrypt)
+9. [:unlock: Decrypt](#unlock-decrypt)
 
 ## :sparkles: Generate key
 
@@ -112,4 +113,11 @@ gpg --encrypt --recipient <RECEIVER ID> <FILE>
 
 # Encrypt and sign
 gpg --encrypt --sign <FILE>
+```
+
+## :unlock: Decrypt
+
+```bash
+# Decrypt file gpg
+gpg --output <OUTPUT FILE NAME> --decrypt <FILE>.gpg
 ```
