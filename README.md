@@ -107,6 +107,9 @@ gpg --symmetric <FILE>
 # Encrypt asymmetric
 gpg --encrypt <FILE>
 
+# Encrypt asymmetric and set the receiver
+gpg --encrypt --recipient <RECEIVER ID> <FILE>
+
 # Encrypt and sign
 gpg --encrypt --sign <FILE>
 ```
