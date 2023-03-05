@@ -6,7 +6,7 @@ The repository is for quick queries of the most used commands.
 ## Summary
 
 1. [:sparkles: Generate key](#sparkles-generate-key)
-2. [:clipboard: List keys](#wastebasket-delete-key)
+2. [:clipboard: List keys](#clipboard-list-keys)
 3. [:wastebasket: Delete key](#wastebasket-delete-key)
 4. [:no_entry_sign: Revoke key](#no_entry_sign-revoke-key)
 5. [:outbox_tray: Export key](#outbox_tray-export-key)
